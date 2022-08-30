@@ -1,0 +1,86 @@
+body {
+    background-color: dodgerblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title h1 {
+    color: white;
+    font-weight: 700;
+    
+}
+
+/*formulario*/
+.form-group1 {
+    background-color: white;
+    padding: 20px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    margin: 30px auto;
+    max-width: 900px;
+}
+#selected-number{
+    font-size: 1.5rem;
+}
+#resposta{
+    font-size: 1.5rem;
+}
+
+button  {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+#selected-number {
+   margin-bottom: 20px;
+}
+
+#btn-adicionar {
+    max-width: 110px;
+}
+
+#btn-finalizar {
+    max-width: 110px;
+}
+@media(max-width: 575px){
+    #btn-adicionar {
+      margin-top: 15px;
+     margin-left: 10px;
+    }
+}
+@media(max-width: 400px){
+    #selected-number{
+        font-size: 1.2rem;
+    }
+    #resposta{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 310px){
+    #selected-number{
+        font-size: 1rem;
+    }
+    #resposta{
+        font-size: 1rem;
+    }
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+   
+}
+.footer a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.1rem;
+}
+.footer a:hover {
+    color: rgb(94, 92, 92);
+ }
